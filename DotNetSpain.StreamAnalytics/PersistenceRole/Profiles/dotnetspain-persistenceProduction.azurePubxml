@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials />
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentLabel>DotNetSpain.StreamAnalytics.PersistenceRole</AzureDeploymentLabel>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureHostedServiceLabel>dotnetspain-persistence</AzureHostedServiceLabel>
+    <AzureHostedServiceName>dotnetspain-persistence</AzureHostedServiceName>
+    <AzureEnableIntelliTrace>True</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureStorageAccountLabel>dotnetspain2015</AzureStorageAccountLabel>
+    <AzureStorageAccountName>dotnetspain2015</AzureStorageAccountName>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <EnableRemoteDebugger>True</EnableRemoteDebugger>
+    <RemoteDebuggerConnectorCertificateThumbprint>4705997B13B5C5B483E05C5AEB48CC360071B470</RemoteDebuggerConnectorCertificateThumbprint>
+  </PropertyGroup>
+</Project>

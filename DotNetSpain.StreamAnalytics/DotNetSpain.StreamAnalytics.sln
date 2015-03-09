@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSpain.StreamAnalytics.WorkerRoleHost", "DotNetSpain.StreamAnalytics.WorkerRoleHost\DotNetSpain.StreamAnalytics.WorkerRoleHost.csproj", "{6F339F67-08AF-4D39-88FF-521A4C62A622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSpain.StreamAnalytics.TwitterSender", "DotNetSpain.StreamAnalytics.TwitterSender\DotNetSpain.StreamAnalytics.TwitterSender.csproj", "{A1FF1187-372D-4EAB-B28C-4035A464BB03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{BF2C07B7-5663-47EA-9B27-72DB84B886FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSpain.Streamanalytics.TwitterSender.Test", "DotNetSpain.Streamanalytics.TwitterSender.Test\DotNetSpain.Streamanalytics.TwitterSender.Test.csproj", "{B82383FB-2775-4139-84BE-98C0276654CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tweetinvi", "Tweetinvi", "{22D5C698-E259-42E4-8A9E-B09EF246E0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.WebLogic", "Tweetinvi\Tweetinvi.WebLogic\Tweetinvi.WebLogic.csproj", "{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Streams", "Tweetinvi\Tweetinvi.Streams\Tweetinvi.Streams.csproj", "{1EE99D68-D7CB-403B-830E-AEE8B87705FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Security", "Tweetinvi\Tweetinvi.Security\Tweetinvi.Security.csproj", "{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Logic", "Tweetinvi\Tweetinvi.Logic\Tweetinvi.Logic.csproj", "{1C74B83B-4B84-44E2-AFD7-1468BB90306D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Factories", "Tweetinvi\Tweetinvi.Factories\Tweetinvi.Factories.csproj", "{D39434BF-9482-48F0-8717-C02C420C7E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Credentials", "Tweetinvi\Tweetinvi.Credentials\Tweetinvi.Credentials.csproj", "{612CDDA5-C4CE-421F-BF86-C542316F12AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Core", "Tweetinvi\Tweetinvi.Core\Tweetinvi.Core.csproj", "{CD1AE921-D88A-4145-87B6-B82F276872F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi.Controllers", "Tweetinvi\Tweetinvi.Controllers\Tweetinvi.Controllers.csproj", "{6048BD01-3CEF-4668-80D8-615914CC85A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweetinvi", "Tweetinvi\Tweetinvi\Tweetinvi.csproj", "{C03B362B-6779-4EF6-8A92-1593079FFE54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AF6FDC22-FD89-4BC4-AEE5-E767B6991CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSpain.StreamAnalytcis.Web", "DotNetSpain.StreamAnalytcis.Web\DotNetSpain.StreamAnalytcis.Web.csproj", "{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C9A28421-BF53-4FFC-8073-859A35836040}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "DotNetSpain.StreamAnalytics.Cloud", "CloudService\DotNetSpain.StreamAnalytics.Cloud.ccproj", "{97C8846D-FF45-4FE4-8066-D5FC5995BFED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenceStorageRole", "PersistenceStorageRole", "{46D1C065-761C-4894-ACB2-11AC43AEBAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSpain.StreamAnalytics.PersistenceStorageRole", "DotNetSpain.StreamAnalytics.PersistenceStorageRole\DotNetSpain.StreamAnalytics.PersistenceStorageRole.csproj", "{F3C127CD-E197-44D6-B92C-F42BA472E255}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "DotNetSpain.StreamAnalytics.PersistenceRole", "PersistenceRole\DotNetSpain.StreamAnalytics.PersistenceRole.ccproj", "{C1578C81-186D-446D-979A-3483BFF475B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F339F67-08AF-4D39-88FF-521A4C62A622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F339F67-08AF-4D39-88FF-521A4C62A622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F339F67-08AF-4D39-88FF-521A4C62A622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F339F67-08AF-4D39-88FF-521A4C62A622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FF1187-372D-4EAB-B28C-4035A464BB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FF1187-372D-4EAB-B28C-4035A464BB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FF1187-372D-4EAB-B28C-4035A464BB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FF1187-372D-4EAB-B28C-4035A464BB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82383FB-2775-4139-84BE-98C0276654CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82383FB-2775-4139-84BE-98C0276654CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82383FB-2775-4139-84BE-98C0276654CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82383FB-2775-4139-84BE-98C0276654CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE99D68-D7CB-403B-830E-AEE8B87705FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE99D68-D7CB-403B-830E-AEE8B87705FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE99D68-D7CB-403B-830E-AEE8B87705FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE99D68-D7CB-403B-830E-AEE8B87705FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C74B83B-4B84-44E2-AFD7-1468BB90306D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C74B83B-4B84-44E2-AFD7-1468BB90306D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C74B83B-4B84-44E2-AFD7-1468BB90306D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C74B83B-4B84-44E2-AFD7-1468BB90306D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39434BF-9482-48F0-8717-C02C420C7E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39434BF-9482-48F0-8717-C02C420C7E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39434BF-9482-48F0-8717-C02C420C7E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39434BF-9482-48F0-8717-C02C420C7E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612CDDA5-C4CE-421F-BF86-C542316F12AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612CDDA5-C4CE-421F-BF86-C542316F12AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612CDDA5-C4CE-421F-BF86-C542316F12AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612CDDA5-C4CE-421F-BF86-C542316F12AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1AE921-D88A-4145-87B6-B82F276872F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6048BD01-3CEF-4668-80D8-615914CC85A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6048BD01-3CEF-4668-80D8-615914CC85A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6048BD01-3CEF-4668-80D8-615914CC85A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6048BD01-3CEF-4668-80D8-615914CC85A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03B362B-6779-4EF6-8A92-1593079FFE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03B362B-6779-4EF6-8A92-1593079FFE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03B362B-6779-4EF6-8A92-1593079FFE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03B362B-6779-4EF6-8A92-1593079FFE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C8846D-FF45-4FE4-8066-D5FC5995BFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C8846D-FF45-4FE4-8066-D5FC5995BFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C8846D-FF45-4FE4-8066-D5FC5995BFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C8846D-FF45-4FE4-8066-D5FC5995BFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C127CD-E197-44D6-B92C-F42BA472E255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C127CD-E197-44D6-B92C-F42BA472E255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C127CD-E197-44D6-B92C-F42BA472E255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C127CD-E197-44D6-B92C-F42BA472E255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1578C81-186D-446D-979A-3483BFF475B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1578C81-186D-446D-979A-3483BFF475B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1578C81-186D-446D-979A-3483BFF475B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1578C81-186D-446D-979A-3483BFF475B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B82383FB-2775-4139-84BE-98C0276654CE} = {BF2C07B7-5663-47EA-9B27-72DB84B886FF}
+		{059849D4-DFC0-42BC-8B34-0AD2DF3210C7} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{1EE99D68-D7CB-403B-830E-AEE8B87705FA} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{9CA25A79-3ED2-42EB-A497-1BE3F8A2B298} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{1C74B83B-4B84-44E2-AFD7-1468BB90306D} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{D39434BF-9482-48F0-8717-C02C420C7E4F} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{612CDDA5-C4CE-421F-BF86-C542316F12AB} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{CD1AE921-D88A-4145-87B6-B82F276872F8} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{6048BD01-3CEF-4668-80D8-615914CC85A2} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{C03B362B-6779-4EF6-8A92-1593079FFE54} = {22D5C698-E259-42E4-8A9E-B09EF246E0E8}
+		{D72CEA5A-FEBD-4AC5-9104-5B7C0BF26779} = {AF6FDC22-FD89-4BC4-AEE5-E767B6991CE3}
+		{F3C127CD-E197-44D6-B92C-F42BA472E255} = {46D1C065-761C-4894-ACB2-11AC43AEBAC7}
+		{C1578C81-186D-446D-979A-3483BFF475B5} = {46D1C065-761C-4894-ACB2-11AC43AEBAC7}
+	EndGlobalSection
+EndGlobal

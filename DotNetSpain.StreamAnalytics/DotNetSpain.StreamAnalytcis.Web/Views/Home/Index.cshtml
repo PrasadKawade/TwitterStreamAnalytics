@@ -1,0 +1,18 @@
+﻿<div class="jumbotron">
+    <h1>Twitter Event Hub Demo</h1>
+    <h2>Select the Event Hub you want to start streaming!</h2>
+    <p>
+        @Html.DropDownList("EventHubs", null, new { @id = "source-eventhub" });
+    </p>
+    <a class="btn btn-default" id="select">
+        Select source
+    </a>
+
+</div>
+<div>
+    <p id="connectionId"></p>
+</div>
+<div id="content-twitter" class="row">
+
+</div>
+<script src="~/Scripts/TwitterSignalRClient.js"></script>
